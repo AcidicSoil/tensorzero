@@ -8,8 +8,6 @@ anyio==4.9.0
     # via
     #   httpx
     #   openai
-appnope==0.1.4
-    # via ipykernel
 asttokens==3.0.0
     # via stack-data
 certifi==2025.4.26
@@ -27,6 +25,8 @@ contourpy==1.3.2
     # via matplotlib
 cycler==0.12.1
     # via matplotlib
+dacite==1.9.2
+    # via tensorzero
 debugpy==1.8.14
     # via ipykernel
 decorator==5.2.1
@@ -42,6 +42,8 @@ executing==2.2.0
     # via stack-data
 fonttools==4.58.0
     # via matplotlib
+greenlet==3.3.2
+    # via sqlalchemy
 h11==0.16.0
     # via httpcore
 httpcore==1.0.9
@@ -110,7 +112,7 @@ parso==0.8.4
     # via jedi
 pexpect==4.9.0
     # via ipython
-pillow==11.2.1
+pillow==12.1.1
     # via matplotlib
 platformdirs==4.3.8
     # via jupyter-core
@@ -161,11 +163,11 @@ sqlalchemy==2.0.41
     #   optuna
 stack-data==0.6.3
     # via ipython
-tensorzero==2025.5.7
+tensorzero==2026.3.1
     # via -r requirements.in
 toml==0.10.2
     # via -r requirements.in
-tornado==6.5
+tornado==6.5.5
     # via
     #   ipykernel
     #   jupyter-client
@@ -198,7 +200,7 @@ typing-inspection==0.4.0
     # via pydantic
 tzdata==2025.2
     # via pandas
-urllib3==2.4.0
+urllib3==2.6.3
     # via clickhouse-connect
 uuid-utils==0.10.0
     # via tensorzero
